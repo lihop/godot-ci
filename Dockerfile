@@ -17,7 +17,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
 ENV GODOT_VERSION "3.2.4"
-ENV GODOT_BETA "4"
+ENV GODOT_BETA "5"
 
 RUN \
     wget https://downloads.tuxfamily.org/godotengine/${GODOT_VERSION}/beta${GODOT_BETA}/Godot_v${GODOT_VERSION}-beta${GODOT_BETA}_linux_headless.64.zip \
