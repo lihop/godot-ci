@@ -1,4 +1,4 @@
-FROM mono:latest
+FROM mcr.microsoft.com/dotnet/sdk:5.0-focal
 LABEL author="https://github.com/aBARICHELLO/godot-ci/graphs/contributors"
 
 USER root
